@@ -1,0 +1,565 @@
+body{
+    max-width: 1920px;
+    width: 1920px;
+    background-color: rgb(32, 30, 30);
+    margin: auto;
+}
+button{
+    cursor: pointer;
+    border:none;
+    background-color: rgba(255, 214, 0, 1);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 22.5px;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.mainScreen{
+    width: 1603px;
+    height: 668.5px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    width: 1599px;
+    height: 50px;
+    top: 22.5px;
+    left: 160px;
+}
+.logo{
+    width: 166px;
+    height: 34.48px;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+.btnImg{
+    width: 22px;
+    height: 22px;
+    padding-right: 10px;
+}
+.btnMenu{
+    width: 213px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+.btnText{
+    color: rgba(51, 56, 69, 1);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.links{
+    width: Hug (609px);
+    height: Hug (19px);
+    padding-left: 50px;
+    display: flex;
+}
+.link{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    color: rgba(42, 56, 72, 1);
+    padding: 15px;
+    width: auto;
+}
+.search{
+    padding-top: 15px;
+    padding-left: 540px;
+}
+.searchImg{
+    width: 21px;
+    height: 21px;
+}
+.mainText{
+    width: 1220px;
+    height: 309px;
+    text-align: left;
+}
+h1{
+    font-family: "Inter";
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    color: rgba(42, 56, 72, 1);
+
+}
+h2{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: rgba(104, 113, 134, 1);
+}
+.btnMain{
+    width: 290.94px;
+    height: 65.5px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.secondPage{
+    width: 1628.6px;
+    height: 321.75px;
+    margin-left: 158px;
+    padding: 120px 0;
+}
+.contentSecondPage{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;  
+}
+.itemSecondPage{
+    display: flex;
+    width: 33%;
+    padding: 40px 0;
+}
+.backgroundImg{
+    width: 63px;
+    height: 62.77px;
+    border-radius: 10px;
+    background-color: rgba(255, 214, 0, 1);
+    display: flex;
+}
+.imgSecondPage{
+    width: 28px;
+    height: 27.9px;
+    padding: 1.74px, 1.75px, 1.74px, 1.75px;
+    margin: auto;
+}
+.textSecondPage{
+    width: 401.11px;
+    height: 122.62px;
+    margin-top: -15px;
+    margin-left: 20px;
+    font-family: "Inter";
+}
+h3{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h4{
+    margin-top: -5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.directionsPage{
+    width: 1600px;
+    height: 462.13px;
+    background-color: rgba(248, 248, 248, 1);
+    margin-left: 158px;
+    border-radius: 30px;
+    padding: 20px 0 ;
+}
+.line {
+    width: 1478.46px;
+    margin: auto;
+    border-radius: 3px;
+    border-bottom: 1px solid rgba(221, 235, 249, 1);
+}
+.directionsText{
+    width: 286px;
+    height: 27px;
+    margin-left: 60.77px;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.directionsItems{
+    display: flex;
+    width: 100%;
+    margin-left: 60.77px;
+}
+.directionsItem{
+    width: 20%;
+}
+.backgroundDirectionsImg{
+    display: flex;
+    width: 47px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.directionsImg{
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    padding: 1.75px, 1.92px, 1.75px, 1.93px
+}
+.directionsItemTitle{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(51, 56, 69, 1);
+    margin: -35px 0 0 60px;
+}
+.directionsList{
+    margin:25px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: rgba(51, 56, 69, 1);
+}
+
+a:hover{
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgba(255, 214, 0, 1);
+}
+.tasksPage{
+    margin-left: 158px;
+    text-align: left;
+    padding: 100px 0;    
+    padding-bottom: 20px;
+}
+.tasksTitle{
+    margin-top: 80px;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    color: rgba(51, 56, 69, 1);
+}
+.tasksText{
+    margin-top: 20px;
+    font-family: "Inter";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.0em;
+    color: rgba(51, 56, 69, 1);
+    width: 800px;
+}
+.ratingPage{
+    padding-left: 158px;
+    padding-top: 100px;
+    width: 1600px;
+    height: 545.08px;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(to right, rgba(42, 56, 72, 1),  rgba(70, 86, 104, 1));
+}
+.ratingTitle{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    Width: 345px;
+    color: rgba(255, 255, 255, 1);
+}
+.ratingText{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    width: 854px;
+    padding-top: 30px;
+}
+.ratingImg{
+    margin-top: -450px;
+    margin-left: 868px;
+}
+.howPage{
+    width: 1600px;
+    height: 789.1px;
+    margin: auto;
+}
+.contentHowPage{
+    display: flex;
+    width: 110%;
+    flex-wrap: wrap;
+    margin-left: -50px;   
+}
+.itemHowPage{
+    height: 200.49px;
+    border-radius: 20px;
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    width: 24%;
+    padding: 39px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.backgroundHowImg{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: rgba(255, 214, 0, 1);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(42, 56, 72, 1);
+    justify-content: center;
+    align-items: center;
+}
+.howTitle{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(42, 56, 72, 1);
+    margin-top: 25px;
+}
+.howText{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(78, 87, 98, 1);
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.applicationPage{
+    width: 748px;
+    height: 253.67px;
+    margin: auto;
+    padding: 120px;
+}
+.applicationTitle{
+    font-family: "Inter";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(51, 56, 69, 1);
+
+}
+.applicationText{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(104, 113, 134, 1);
+    padding: 20px;
+}
+.applicationBtn{
+    width: 319.67px;
+    height: 57.17px;
+    border-radius: 100px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px auto;
+}
+.basement{
+    width: 100%;
+}
+.basementStart{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 160px;
+    height: 580.97px;
+    background-color: rgba(39, 47, 55, 1);
+}
+.logoSize{
+    width: 53px;
+    height: 34.48px;
+}
+.logoColor{
+    margin-top: 40px;
+    width: 166px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+.logoMargin{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.disclaimerText{
+    width: 222px;
+    height: 170px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: rgba(145, 148, 152, 1);
+    margin-top: 30px;
+}
+.basemenLline{
+    width: 1127.81px;
+    margin: auto;
+    border-radius: 3px;
+    border-bottom: 1px solid rgba(59, 69, 79, 1);
+    position: absolute;
+    z-index: 1;
+    margin-top: -185px;
+    margin-left: 420px;
+}
+.basementMenu{
+    width: 685px;
+    height: 466px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+}
+.basementItem{
+    width: 33%;
+}
+
+.basementItemTitle{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.basementList{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: rgba(145, 148, 152, 1);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.basementNoTitle{
+    margin-top: 55px;
+}
+.support{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.supportTitle{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.supportInfo{
+    margin-top: 30px;
+    color: rgba(145, 148, 152, 1);
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+.supportBtn{
+    width: 196.98px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 10px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.socialNetwork{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+}
+.socialItem{
+    display: flex;
+    width: 130.16px;
+    height: 37.03px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.socialBackground{
+    display: flex;
+    width: 27%;
+    border-radius: 5px;
+    background-color: rgba(51, 60, 70, 1);
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+}
+.socialImg{
+    width: 16.26px;
+    height: 16.26px;
+}
+
+.basementEnd{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(29, 38, 48, 1);
+}
+.endTextLeft{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: rgba(145, 148, 152, 1);
+    margin-left: 250px;
+}
+.endTextRight{
+    width: 106px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: rgba(145, 148, 152, 1);
+    margin-left: 900px;
+}
+
+.endLogo{
+    margin-left: 10px;
+    position: absolute;
+}
