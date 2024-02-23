@@ -7,10 +7,26 @@ body{
 button{
     cursor: pointer;
     border:none;
-    background-color: rgba(255, 214, 0, 1);
+    background-color: #ffd600;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.a:hover{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(255, 214, 0, 1);
+}
+.link:hover{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 100px;
+    background-color: rgba(255, 214, 0, 1);
 }
 .container{
     width: 100%;
@@ -232,12 +248,7 @@ h4{
     color: rgba(51, 56, 69, 1);
 }
 
-a:hover{
-    cursor: pointer;
-    padding: 6px;
-    border-radius: 5px;
-    background-color: rgba(255, 214, 0, 1);
-}
+
 .tasksPage{
     margin-left: 158px;
     text-align: left;
